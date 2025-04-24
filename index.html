@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="./img/copaamericapng-removebg.png" type="image/png">
+
+    <title>Copa America 2021</title>
+  </head>
+  <body>
+    
+
+
+    <!-- Encabezado -->
+    <!-- ================ -->
+    <!--  -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-primary fs-3 fw-bold"><img id="logo-conmebol" src="img/png-transparent-conmebol-hd-logo-removebg-preview.png" alt=""></span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+             
+            <li class="nav-item">
+              <a class="nav-link text-white" target="_blank" href="./html/equipos.html"> | Equipo</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" target="_blank" href="./html/calendario.html"> | Calendario</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#noticiasid"> | NOTICIAS</a>
+            </li>
+          </ul> 
+          
+            <header class="conteiner-fluid  d-flex justify-content-center">
+              <h2 id="copa" class="text-primary mb-2 p-2 fs-3"></h2>
+            
+
+
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- ===========SLIDER===== -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner carousel-tamaño">
+
+        <div class="carousel-item active"  data-bs-interval="4000">
+          <h5 class="titulo-slider ">Seleccion Argentina</h5>
+          <p class="titulo-slider">Los 11 titulares del seleccionado argentino</p>  
+          <img src="./img/PRIMERA.jpg" class="d-block w-100" alt="slide1">
+         
+
+        </div>
+
+        <div class="carousel-item" data-bs-interval="4000">
+          <h5  class="titulo-slider ">Argentina campeon de la Copa America 2021</h5>
+          <p  class="titulo-slider ">El segundo Maracanazo</p>
+          <img src="./img/SEGUNDA.jpg" class="d-block w-100" alt="slide2">
+         
+        </div>
+
+        <div class="carousel-item" data-bs-interval="4000">
+          <h5  class="titulo-slider ">¡Argentina campeon! Para la historia</h5>
+          <p  class="titulo-slider ">La albiceleste se consagro campeon luego de 28 años</p>
+          <img src="./img/TERCERA.jpg" class="d-block w-100" alt="slide3">
+         
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+       <div class="cardsgeneral">
+          <h2>¿Quienes fueron los <br> protagonistas de esta copa?</h2>
+          
+          <div class="card " id="mejorjugador" ></div>
+          <div class="card" id="mejorarquero"></div>
+          <div class="card" id="goleador"></div>
+          <div class="card" id="asistidor"></div>
+      </div>
+
+      
+       <!-- =============ASIDE -->
+     <aside class="conteiner-fluid ">
+        <h1 class="tituloaside  w-100 conteiner-fluid">FASE DE GRUPOS</h1>
+        <br>
+        <br>
+        <h4>14/06/2021</h4>
+        <div class="partidos"><img src="img/argentina bandera.png" alt="" class="imgpartidos"><p> ARG 1 - 1 CHI</p> <img src="img/banderachile.png" alt="" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas1.png" alt=""></div>
+        </div>
+        <h4>18/06/2021</h4>
+        <div class="partidos"><img src="img/argentina bandera.png" alt="" class="imgpartidos"><p> ARG 1 - 0 URU</p> <img src="img/uruguarbandera.png" alt="" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas2.png" alt=""></div>
+        </div>
+        <h4>21/06/2021</h4>
+        <div class="partidos"><img src="img/argentina bandera.png" alt="" class="imgpartidos"><p> ARG 1 - 0 PAR</p> <img src="img/paraguaybandera.png" alt="" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas3.png" alt=""></div>
+        </div>
+        <h4>28/06/2021</h4>
+        <div class="partidos"><img src="img/boliviabandera.png" alt="" class="imgpartidos"><p> BOL 1 - 4 ARG </p><img src="img/argentina bandera.png" alt="" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas4.png" alt=""></div>
+        </div>
+        <h1 class="tituloaside">FASE ELIMINATORIA</h1>
+        <br>
+        <br>
+        <h4>02/07/2021</h4>
+        <div class="partidos"><img src="img/argentina bandera.png" alt="" class="imgpartidos"><p> ARG 3 - 0 ECU</p> <img src="img/banderaecuador.png" alt="" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas5.png" alt=""></div>
+        </div>
+        <h4>06/07/2021</h4>
+        <div class="partidos"><img src="img/argentina bandera.png" alt="" class="imgpartidos"><p> ARG 1 - 1 COL</p> <img src="img/banderacomlombia.png" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas6.png" alt=""></div>
+        </div>
+        <h4>10/07/20</h4>    
+        <div class="partidos"><img src="img/argentina bandera.png" alt="" class="imgpartidos"><p> ARG 1 - 0 BRA</p> <img src="img/banderabrasil.png" alt="" class="imgpartidos">
+            <div class="estadisticas"><img src="img/estadisticas7.png" alt=""></div>
+        </div>
+    </aside>
+
+
+    <!-- ============== N O T I C I A S =============== -->
+
+     <!-- NOTICIAS -->
+     <section id="noticiasid" class="noticias-container">
+      <div class="noticia 
+                  noticia-destacada" >
+        
+        <a href="https://copaamerica.com/news/la-conmebol-copa-america-2021-y-el-homenaje-al-genio-del-futbol-mundial/?lang=es" target="_blank"><img class="noticia-img"  src="img/homenajediego.png" alt=""></a>
+        <h3>La CONMEBOL Copa America 2021 y el homenaje al Diego</h3> 
+      </div>
+      
+      <div class="noticias-column">
+        <div class="noticia">
+          <a href="https://copaamerica.com/news/uno-por-uno-el-equipo-ideal-de-la-conmebol-copa-america-2021/?lang=es" target="_blank"><img class="noticia-img"  src="img/11ideal.jpg" alt=""></a>
+          <h3>Uno por uno, el equipo ideal de la CONMEBOL Copa América 2021 elegido por el GET</h3>
+       </div>
+        <div class="noticia">
+          <a href="https://copaamerica.com/news/colombia-vs-peru-por-subirse-al-podio/?lang=es" target="_blank"><img class="noticia-img"  src="img/podio.jpg" alt=""></a>
+          <h3>Colombia vs. Perú, por subirse al podio</h3>
+          
+        </div>
+      </div>
+    </section>
+   
+
+
+    <!-- ========TROFEOS============ -->
+
+
+
+    <section class="w-50 mx-auto text-center pt-3 " id="intro">
+      <h1 id="titulo-trofeos" class="p-3 fs-2 border-top border-3 text-light"><span class="text-primary">Argentina</span>   es reconocida mundialmente por su ilustre historia y legado en el deporte rey, se erige como un símbolo de pasión y habilidad excepcional en el escenario internacional. Con una tradición profundamente arraigada, la albiceleste ha producido algunos de los jugadores más talentosos y carismáticos de la historia del fútbol</h1>
+      <p class="p-3 fs-4 text-light"><span class="text-primary">... Estos son algunos de sus ultimos logros</span></p>
+    </section>
+
+
+    <section class="container-fluid intro2">
+      <div class="row w-75 mx-auto servicio-fila">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+          <img class="img-fluid img-trofeos" src="./img/Logo-Finalissima-2022.png" alt="etcetc" width="180" height="160">
+            <div id="trofeos">
+              <h3 class="fs-5 mt-4 px-4 pb-1 text-white">The Finalissima 2022</h3>
+              <p id="argentina" class="px-4 ">ARGENTINA</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+          <img class="img-fluid img-trofeos" src="./img/copadelmundo.png" alt="etcetc" width="180" height="160">
+            <div id="trofeos">
+              <h3 class="fs-5 mt-4 px-4 pb-1 text-white">Copa Mundial de la FIFA Catar 2022</h3>
+              <p  id="argentina" class="px-4 ">ARGENTINA  </p>
+            </div>
+        </div>
+
+      </div>
+
+
+      
+    </section>
+
+
+
+      <!-- ===========C A R R O U S E L   C A P I T A N E S============ -->
+
+
+     <section class="conteiner-fluid" id="carrousel-capitanes">
+  
+          <h2  class="titulo-capitanes">Los corazones del Futbol Latino</h2>
+     
+        <div  class="Concarrusel">
+          <a href="https://twitter.com/TNTSportsAR/status/1396858755233378309" target="_blank">
+          <img src="./img/rincon2.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="https://www.lanacion.com.ar/deportes/futbol/la-lista-de-paraguay-los-convocados-para-la-copa-america-de-brasil-2021-nid10062021/" target="_blank">
+          <img src="./img/Gustavo Gómez.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="https://twitter.com/TNTSportsAR/status/1396858755233378309" target="_blank">
+          <img src="./img/Edison Flores.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="https://twitter.com/TNTSportsAR/status/1396858755233378309"  target="_blank">
+          <img src="./img/ospina3.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="" target="_blank">
+          <img src="./img/Enner Valencia.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="https://twitter.com/TNTSportsAR/status/1396858755233378309" target="_blank">
+          <img src="./img/messi4.jpg" alt="" class="imgcarrusel img-fluid">
+          </a> 
+
+          <a href="https://www.lanacion.com.ar/deportes/futbol/la-lista-de-uruguay-los-convocados-para-la-copa-america-brasil-2021-nid10062021/" target="_blank">
+          <img src="./img/godin2.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="" target="_blank">
+          <img src="img/casemiro2.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="" target="_blank">
+          <img src="./img/martins2.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+
+          <a href="https://www.lanacion.com.ar/deportes/futbol/la-lista-de-chile-los-convocados-para-la-copa-america-brasil-2021-nid10062021/" target="_blank">
+          <img src="./img/bravo2.jpg" alt="" class="imgcarrusel img-fluid">
+          </a>
+          
+        </div>
+    </section>
+
+
+
+    
+
+
+ 
+
+    
+
+    <!-- ACERCA DE NOSOTROS -->
+
+    <section>
+      <div class="w-75 m-auto text-center" id="equipo">
+        <h1 mb-5 fs-2 class="text-light pt-3">Naciones pequeñas con <span class="text-primary fs-1"> grandes resultados</span></h1>
+        <p class="fs-5 text-light">En este teatro de sueños, la pelota es el protagonista, bailando entre jugadores que son artistas, componiendo sinfonías de destreza y estrategia. La red se convierte en testigo de gestas que se graban en la historia, y la hinchada, con sus cánticos y alientos, teje un lazo intangible que une a fanáticos alrededor del mundo.</p>
+      </div>
+
+      <div class="mt-5 text-center">
+        <img class="img-fluid" src=".." alt="">
+      </div>
+
+
+
+      
+
+      <div id="local" class="border-top border-2">
+        <div class="mapa"></div>
+          <div class="wrapper">
+              <h2>Final de la Copa América Brasil 2021</h2>
+              <h2 class="text-primary mb-4" id="typewriter"></h2>
+              <p class="fs-5 text-body">  La Albiceleste buscará cortar una racha de 28 años sin títulos y levantar por decimoquinta vez el trofeo continental, mientras que la Canarinha intentará ganar el torneo por segunda vez consecutiva y décima vez en su historia..</p> 
+
+                 
+          </div>
+      </div>
+
+    </section>
+
+
+    
+  <!-- TIENDA CONMEBOL -->
+
+  <h3 class="titulo-store"> CONMEBOL STORE +</h3>
+
+  <article class="container-store conteiner-fluid">
+      
+
+      <div class="articulos ">
+         <a href="https://www.digitalsport.com.ar/nike/prod/pelota-copa-america-flight-21-nike-531430" target="_blank"> <img class="img-store img-fluid" src="img/pelotacopa.jpg" alt=""></a>
+         <a href="https://www.digitalsport.com.ar/nike/prod/pelota-copa-america-flight-21-nike-531430" target="_blank"> 
+          <h5>|PELOTA COPA AMERICA FLIGHT 21 </h5></a>  
+      </div>
+
+      <div class="articulos lg-3">
+       <a href="https://www.opensports.com.ar/camiseta-adidas-afa-campe-n-copa-am-rica-2021-9fs6565.html" target="_blank"><img class="img-store img-fluid" src="img/remeracampeon.jpg" alt=""></a>
+       <a href="https://www.opensports.com.ar/camiseta-adidas-afa-campe-n-copa-am-rica-2021-9fs6565.html" target="_blank"><h5>|CAMISETA CAMPEON DE AMERICA</h5></a>
+       
+      </div>
+      <div class="articulos lg-3">
+          <a href="https://malditopaparazzo.com.ar/product/argentina-campeon-copa-america-2021-messi" target="_blank"><img class="img-store img-fluid" src="img/remeramessi.jpg" alt=""></a>
+          <a href="https://malditopaparazzo.com.ar/product/argentina-campeon-copa-america-2021-messi" target="_blank"> <h5>|CAMISETA MESSI CAMPEON</h5></a>
+         
+      </div>
+      <div class="articulos lg-3">
+          <a href="https://www.puntobizarro.com.ar/product.php?id=4531" target="_blank"> <img class="img-store img-fluid" src="img/tazacopa.png" alt=""></a>
+          <a href="https://www.puntobizarro.com.ar/product.php?id=4531" target="_blank"><h5>|TAZA AMERICA 2021</h5></a>
+      </div>
+
+  </article>
+
+ 
+  <!-- TEMPORIZADOR -->
+
+
+  <div class="temporizador">
+    <h1>¿Cuanto falta para la próxima copa america?</h1>
+  <div class="contenedor">
+ 
+      <div class="numero">
+          <p id="dias">1000</p>
+          <span><p>Dias</p></span>
+      </div>
+      
+      <div class="numero">
+          <p id="horas">12</p>
+          <span><p>Horas</p></span>
+      </div>
+
+      <div class="numero">
+          <p id="minutos">12</p>
+          <span><p>Minutos</p></span>
+      </div>
+
+      <div class="numero">
+          <p id="segundos">32</p>
+          <span><p>Segundos</p></span>
+      </div>
+      <script src="javascrip/main.js"></script>
+  </div>
+  
+
+
+
+
+
+
+    <!-- ====FORM====== -->
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+       <div id="bg-contacto">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(245,222,179)" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,197.3C384,192,480,192,576,170.7C672,149,768,107,864,112C960,117,1056,171,1152,165.3C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+       </div>
+
+
+
+         
+    <div class="container" id="contenedor-formulario">
+      <div id="titulo-formulario" class="text-center mb-4">
+        <div><img class="img-fluid" src="" alt=""></div>
+        <h2 class="">Contactanos</h2>
+        <p class="fs-5">Envianos tu foto o video destacado de la copa y participa por grandes premios</p>
+      </div>
+      
+      <form action="">
+
+        <div class="mb-3">
+        
+          <input type="email" class="form-control" id="email" placeholder="nombre@example.com" required>
+        </div>
+
+        <div class="mb-3">
+        
+          <input type="text" class="form-control" id="nombre" placeholder="Adrian Sanchez" required>
+        </div> 
+
+        <div class="mb-3">
+        
+          <input type="tel" class="form-control" id="tel" placeholder="381-300-1009" required>
+        </div> 
+        <div class="mb-3">
+          
+          <form action="/procesar_archivo" method="post" enctype="multipart/form-data">
+              <label for="archivo">Selecciona un archivo:</label>
+              <input class="archivos" type="file" id="archivo" name="archivo" accept="image/*, video/*">
+              <!-- El atributo 'accept' especifica los tipos de archivos que el usuario puede seleccionar -->
+      
+              <input class="archivos" type="submit" value="Subir Archivo">
+           </form>
+
+        </div>
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary w-100 fs-5"> Enviar mensaje</button>
+        </div>
+
+      
+
+          
+
+      </form>
+
+  </div>
+
+    </section>
+
+    
+
+
+
+       <!-- ====FOTTEEEEEER====== -->
+
+
+       <footer  id="footer" class="w-100 d-flex align-items-center justify-content-center flex-wrap conteiner-fluid">
+
+        <!-- FOOTER -->
+  
+      
+        <div class="Piepag">
+            <div class="boxpie">
+                <figure>
+                    <img src="./img/logonuevo-removebg-preview.png" alt="">
+                </figure>
+            </div>
+            
+                    
+                
+          
+        
+            <div class="conequipos">
+                <div class="equipos"><a href=""><img src="./img/Argentina.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/brasil.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/chile.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/bolivia.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/colombia.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/Ecuador.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/paraguay.png" alt="" class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/peru.png" alt=""class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/uruguay-removebg-preview.png" alt=""class="imagen"></a></div>
+                <div class="equipos"><a href=""><img src="./img/venezuela-removebg-preview.png" alt=""class="imagen"></a></div>
+            </div>
+      
+
+            <div id="iconos">
+              <br>
+              <p>Nuestos Medios de Contactos</p>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="https://twitter.com/CopaAmerica"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+
+        
+            <p id="copy" class="fs-5 px-3 pt-3"> Copa America 2021. &copy; Todos los derechos reservados 2023 </p>
+       
+
+
+       </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>

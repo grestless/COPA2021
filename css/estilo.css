@@ -1,0 +1,1133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' !important;
+}
+
+body{
+    overflow-x: hidden;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#fondoequipos p{
+    font-family: 'Poppins' !important;
+    
+}
+
+
+
+.calendario{
+    height: 100%;
+    width: 100%;
+    
+}
+.fondoequipos{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.titulosequipo {
+    margin: 70px;
+    text-align: center;
+    color: white;
+}
+.fondoequipos p {
+    text-align: center;
+    color: white;
+    margin: 50px 300px;
+}
+strong {
+    text-decoration: underline white;
+}
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+/* 
+ =============HTML EQUIPOS================
+*/
+
+.fondoequipos img
+ {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+
+
+
+
+
+
+
+/* 
+ =============MENU================
+*/
+
+#menu{
+
+    
+       
+   
+        background: #141E30;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+    li > a{
+        font-size: 18px;
+        font-weight: bold;
+        color:#3f3f3f;
+    }
+
+     form > button{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    
+   
+}
+
+
+.navbar-toggler{
+    background-color: rgb(236, 195, 117);
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+
+.nav-link{
+    font-size: large;
+}
+
+
+
+
+#navbarSupportedContent a{
+    position: relative;
+    color: wheat;
+}
+
+#navbarSupportedContent a::after{
+    content: "";
+    background-color: #00acee;
+    position: absolute; 
+    left: 0; /*para que se situe debajo del elemento y este centrado*/
+    top: calc(100% + 2px); /*un calculo para que la linea quede 4px por debajo*/
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#navbarSupportedContent a:hover::after{
+    opacity: 0.8;
+}
+
+
+#logo-conmebol{
+    width: 80px;
+}
+
+
+#copa{
+    opacity: 0.5;
+}
+
+
+/* =====CARROUSEL IMG========== */
+
+.carousel-inner{
+    height: 50rem;
+}
+
+
+
+#carouselExampleControls{
+    
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+
+
+
+
+
+
+
+.titulo-slider{
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* ======CARDS DE JUGADORES========= */
+/*JUGADORES DESTACADOS*/
+
+.cardsgeneral {
+   
+    margin: 2em;
+    padding: 2em;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #3f3f3f;
+    border-radius: 25px;
+    box-shadow: 0px 0px 4px whitesmoke;
+
+    
+
+    & h2{
+        margin: auto;
+        color: wheat;
+        
+    }
+
+  
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0 300px inset, 0 0 5px grey;
+    transition: box-shadow 1s;
+    float: left;
+    margin: 10px;
+}
+.card::after {
+    width: 80%;
+    height: 20%;
+    white-space: pre;
+    color: aliceblue;
+    background: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 8px;
+    transition: opacity 1s .5s;
+    text-transform: uppercase;
+}
+.card:hover{
+    box-shadow: 0 0 0 5px inset, 0 0 5px #0000000f, 0 0 10px #0000000f inset;
+    transition: box-shadow 1s ;
+    cursor: pointer;
+}
+.card:hover::after {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+#mejorjugador {
+    color:wheat;
+    
+    
+}
+    #mejorjugador:hover {
+        background-image: url(../img/mejorjugador.jpg);
+        background-size:cover;
+        background-position: center;
+       
+        
+    
+    }
+
+  
+    #mejorjugador::after {
+        content: "MEJOR JUGADOR";
+        width: 10em;
+    }
+
+#mejorarquero {
+    color:wheat;
+}
+    #mejorarquero:hover {
+        background-image: url(../img/mejorarquero.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #mejorarquero::after {
+        content: "MEJOR ARQUERO";
+        width: 10em;
+    }
+
+#goleador {
+    color: wheat;
+}
+    #goleador:hover {
+        background-image: url(../img/goleador.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #goleador::after {
+        content: "MAXIMO GOLEADOR";
+        width: 10em;
+           
+        
+    }
+
+
+
+ #asistidor {
+        color: wheat;
+        
+}
+     #asistidor:hover {
+            background-image: url(../img/mayorasistidor.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    #asistidor::after {
+            content: "MAYOR ASISTIDOR";
+            width: 10em;
+        }
+
+
+/*FIN JUGADORES DESTACADOS*/    
+
+
+/* ====================  A S I D E ====================== */
+
+aside {
+    color:white;
+    float: right;
+    width: 25%;
+    height: 65em;
+   
+    
+        
+    padding: 10px;
+
+    border-radius: 50px;
+
+    & h1{
+        color: #00acee;
+        
+    } 
+
+    & p{
+        color: white;
+    }
+}
+
+
+
+.tituloaside {
+    text-align: center;
+    
+}
+h4 {
+    text-align: center;
+    
+}
+.imgpartidos{
+width: 20%;
+height: 40px;    
+}
+    .partidos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 17px;
+        position: relative;
+    }
+
+
+
+    .estadisticas {
+        display: none;
+        position:absolute;
+        left: 100px;
+        background-color: #fff;
+        border-radius: 40px;
+        padding: 10px;
+        z-index: 2;
+
+    }
+
+.estadisticas img{
+    height: 400px;
+}
+
+
+.partidos:hover .estadisticas, img{
+    display: block;
+    left: -150%;
+    top: -100%;
+    
+}
+
+
+
+
+
+/* ========= NOTICIAS======== */
+
+.noticias-container {
+    display: flex;
+  
+    padding: 1em 0.2em;
+
+        & h3{
+            text-align: left;
+            padding-top: 1;
+            margin: 0.8em 0.5em;
+            color:#141E30,linear-gradient(to right, #243B55, #141E30);
+        }
+   
+  }
+  
+  .noticia {
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 100%; /* Para ocupar todo el ancho disponible */
+    transition: filter 0.6s; /* Agrega una transición suave al efecto de desenfoque */
+    box-shadow: 1px 2px 8px black;
+    
+  }
+
+  .noticia-destacada {
+    background-color: #ffcc00; /* Color diferente para la noticia destacada */
+    flex: 1; /* Hace que la noticia destacada ocupe el mayor espacio */
+    height: 23em;
+    margin: auto;
+    
+  }
+
+  .noticia-img{
+    
+    width: 20rem;
+    border-radius: 20px;
+  
+    
+  }
+  
+  .noticias-column {
+    display: flex;
+    flex-direction: column;
+    flex: 2; /* Hace que las noticias en la columna ocupen el 2/3 del espacio disponible */
+    gap: 1em;
+    padding-left: 0.5em;
+
+        .noticia{
+            display:flex;
+            flex-direction: row;
+        }
+       
+    }
+
+  .noticias-container:hover .noticia {   /* Cuando el cursor del mouse está sobre el contenedor de noticias, se aplica un filtro de desenfoque a todas las noticias */
+    filter: blur(1.2px);
+    opacity: 0.9;
+ 
+  }
+  
+
+  .noticias-container:hover .noticia:hover { /* Cuando el cursor del mouse está sobre una noticia específica, se elimina el filtro de desenfoque, restaurando la noticia a su estado original */
+    filter: none;
+    opacity: 1;
+  }
+
+
+  /* ==========TROFEOS======== */
+
+
+  
+
+  #titulo-trofeos{
+   
+    margin-top: 3em;
+  }
+
+  #trofeos{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+    
+  }
+
+  #argentina{
+    color: wheat;
+    font-size: large;
+  }
+
+
+  .img-trofeos{
+
+    margin: auto 5em;
+    width: 10em;
+    height: 10em;
+
+  }
+      
+
+
+
+  /* ==================CARROUSEL CAPITANESS============= */
+  
+
+
+
+.titulo-capitanes{
+    text-align: center;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+#carrousel-capitanes {
+    width: 100%;
+}
+
+/* Estilos para el contenedor del carrusel */
+.Concarrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; /* Ancho fijo del carrusel (ajusta según sea necesario) */
+    height: 500px; /* Altura fija del carrusel (ajusta según sea necesario) */
+    
+}
+
+
+
+/* Estilos para las imágenes del carrusel */
+.imgcarrusel {
+    
+    width: 100px; /* Ancho inicial (0px para ocultar las imágenes) */
+    height: 500px;
+    flex-grow: 1; /* Permitir que las imágenes crezcan para llenar el espacio */
+    object-fit: cover; /* Ajustar el tamaño de las imágenes para cubrir el contenedor */
+    opacity: 0.9; /* Opacidad inicial (ajusta según sea necesario) */
+    transition: 0.5s ease; /* Transición suave de las imágenes */
+    
+}
+
+
+/* Estilos para las imágenes del carrusel al pasar el cursor */
+.imgcarrusel:hover {
+    cursor: crosshair; /* Cambia el cursor al estilo "crosshair" */
+    width: 300px; /* Ancho al pasar el cursor (ajusta según sea necesario) */
+    opacity: 1; /* Opacidad al pasar el cursor (ajusta según sea necesario) */
+    filter: contrast(125%); /* Aplicar un filtro de contraste al pasar el cursor (ajusta según sea necesario) */
+    
+}
+
+
+
+
+
+
+
+
+
+/* =====SECCION MAPAA======== */
+
+.mapa {
+    background: url(../img/maracana2.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+    #local{
+        background: #f3f3f3;
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .wrapper{
+        width: 50%;
+        margin-left: 100px;
+        padding-top: 150px;
+    }
+
+
+
+
+    /* =========STORE======== */
+    
+/* STORE!!! */
+.titulo-store{
+    margin: 1em  0;
+    padding: 1em 1em;
+    background-color:#f2f2f2;
+    text-align: center;
+}
+
+.container-store{
+    display: flex;
+    flex-direction: row;
+    
+    
+        .articulos{
+            width: 25%;
+            margin: 1em ;
+            align-items: center;
+            padding: 1em;
+            border: #b1c1e1 solid 1px;
+            border-radius: 20px;
+            background-color:#141E30;
+            filter: grayscale(100%);
+            transition: all 0.5s ease;
+          
+
+            .img-store{
+                padding: 5px;
+                width: 100%;
+                height: 80%;
+                border-radius: 13px;
+                box-shadow: 0 0 6px white;
+            }
+            
+        }
+
+
+        .articulos:hover{
+            box-shadow: 0 0 6px #00acee ;
+            filter: none;
+        }
+
+
+       
+
+        & h5{
+            float: left;
+            margin-top: 10px;
+            color: white;
+        }
+        
+}
+
+ /* =========TEMPORIZADOR======== */
+
+.temporizador{
+    background-image: url(../img/copaalzada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 2rem;
+    margin: 0;
+    height: 500px;
+    position: relative;
+    }
+    
+    .temporizador h1{
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 1.4;
+    margin: 2rem 1.5rem;
+    color: white;
+     background-color: rgba(7, 5, 5, 0.521);
+    padding: 1rem;
+    border-radius: .5rem;
+    }
+    
+    .contenedor{
+    color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: .5rem;
+    margin: 0 auto;
+    }
+    
+    .numero{
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100px;
+    height: 100px ;
+    border-radius: .5rem;
+    padding: .5rem;
+    }
+    
+    .numero p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+    
+    .numero span p{
+    font-size: .8rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    }
+    
+    
+
+
+/* =====CONTACTO Y FOOTER========= */
+
+#bg-contacto{
+    position:relative;
+    top: 170px;
+}
+
+#seccion-contacto{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 300px;
+    min-height: 500px;
+    position: relative;
+}
+
+
+#contenedor-formulario{
+
+    margin-top: 1em;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+ 
+    #titulo-formulario{
+        color: #3f3f3f;
+    }
+
+
+
+    .archivos{
+        margin: 0.5em;
+        
+    }
+
+
+
+    footer{
+        background: #1b2a4e;
+        min-height: 100px;  
+        display: flex;
+        flex-direction: column;
+        clear: both;
+        width: 100%; /* Ancho del pie de página al 100% del contenedor padre */
+        background-image: url(../img/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra.jpg); /* Fondo de imagen */
+        background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+        background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el pie de página */
+        color: white; 
+        background-position: center top; /* Posición del fondo */
+        padding: 20px; 
+        
+
+        p{
+            color: #f3f3f3;
+            text-align: center;
+        }
+    }
+
+    #iconos i{
+        
+        font-size: 25px;
+        padding: 0 8px;
+        color: white;
+        padding-top: 1em;
+    }
+     
+
+
+
+
+    #footer{
+        padding: 2em;
+    }
+
+    .Piepag{
+        width: 100%; 
+        text-align: center;
+
+        
+    }
+
+
+    
+    
+    
+    /* Estilos para las figuras (imágenes) */
+    figure{
+        flex-grow: 1;
+        width: 100%; 
+        height: 100% ; 
+        display: flex; /* Usa flexbox para centrar contenido */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        transition: transform 2s ease; /* Aplica una transición de escala */
+    }
+    
+    /* Efecto de escala al pasar el cursor sobre las figuras */
+    figure:hover {
+        transform: scale(1.5); /* Escala al 150% al pasar el cursor */
+    }
+    
+   
+    .conequipos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+    
+    
+    /* Estilos para los elementos de equipos (banderas) */
+    .equipos {
+        
+        display: inline-block; /* Muestra las banderas en línea, una al lado de la otra */
+        margin-right: 10px; /* Espacio entre las banderas */
+        
+    }
+    
+    
+    /* Estilos para los enlaces */
+    .equipos a {
+        display: block; /* Los enlaces ocupan todo el espacio de sus divisiones de banderas */
+    }
+    
+    /* Estilos para las imágenes de las banderas */
+    .equipos .imagen {
+        width: 40px; /* Ancho más pequeño para las imágenes (ajusta este valor según tus preferencias) */
+        height: 40px; /* Altura para mantener la proporción (asegúrate de agregar 'px' después del valor) */
+    }
+    
+    /* =====SECCION EQUIPO MIAMI======= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============= MEDIA QUERIES PANTALLA ANCHA =========== */
+
+    @media (max-width: 1200px){
+        #local{
+            flex-wrap: wrap;
+            padding-top: 30px;
+        }
+
+        .wrapper{
+            width: 90%;
+            margin: auto;
+            padding-top: 50px;
+        }
+
+
+        #mejorjugador.card, #mejorarquero.card, #goleador.card, #asistidor.card{
+            height: 10em;
+            background-image: url(../img/messinombre.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #mejorarquero.card{
+            height: 10em;
+            background-image: url(../img/dibunombre.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #goleador.card{
+            height: 10em;
+            background-image: url(../img/messinombre2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #asistidor.card{
+            height: 10em;
+            background-image: url(../img/messinombre3.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+
+        #mejorjugador.card::after{
+
+            content: "MEJOR JUGADOR";
+            height: 3em;
+        }
+        #mejorarquero.card::after{
+
+            content: "MEJOR ARQUERO";
+            height: 3em;
+        }
+        #goleador.card::after{
+
+            content: "GOLEADOR";
+            height: 3Em;
+        }
+        #asistidor.card::after{
+
+            content: "ASISTIDOR";
+            height: 3em;
+           
+        }
+
+        #mejorjugador::after,#mejorarquero::after,#goleador::after,#asistidor::after{
+         
+        }
+
+        .cardsgeneral{
+            flex-direction: column;
+            height: auto;
+        
+        }
+
+
+
+        aside{
+            float: right;
+            text-align: center;
+            align-items: center;
+            width: 30%;
+        }
+
+        /* NOTICIAS */
+
+        .noticias-container{
+            flex-direction: column;
+            height: 65em;
+            
+        }
+
+        
+
+        .noticia{
+            margin: 5px;
+            width: 90%;
+           
+            
+        }
+
+        .noticias-column{
+            padding-top: 2em;
+        }
+        
+        
+        /* =====CAPITANES======= */
+
+
+
+
+        #carrousel-capitanes{
+            
+            text-align: center;
+            align-items: center;
+           
+        }
+        .Concarrusel{
+            overflow: hidden;
+             
+           
+
+        }
+        
+
+
+
+        /* ===== FORMULARIO ===== */
+      
+        #seccion-contacto{
+            
+            min-height: 600px;
+            position: relative;
+        }
+
+
+
+
+
+        /* =====FOOTER====== */
+        #footer{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+/* =================MEDIA QUERIES PANTALLA SM=============== */
+
+@media (max-width:768px){
+    #intro , #equipo {
+        width: 90% !important;
+    }
+
+    
+    #equipo p{
+        display: none;
+    }
+
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #bg-contacto{
+        
+        top: -110px;
+    }
+
+
+    /* CARDS */
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cardsgeneral{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+      
+    
+    }
+
+    .carousel-inner{
+        height: 35rem;
+    }
+
+
+    /* =====NOTICIAS CONTAINER======= */
+        .noticias-container{
+            margin-left: 3em;
+        }
+
+
+
+    /*==ASIDE==*/
+
+        aside{
+         display: none;
+        }
+
+
+        /* ============= CARROUSEL======= */
+        
+        #carrousel-capitanes{
+            
+            display: inline-block;
+            text-align: center;
+            align-items: center;
+           
+           
+        }
+       
+    
+     #bg-contacto{
+        display: none;
+    }
+
+
+
+    /* ===STORE=== */
+    .container-store{
+        flex-direction: column;
+        width: 100%;
+        
+        text-align: center;
+        align-items: center;
+
+    }
+
+
+    .container-store.articulos{
+        width: 100px;
+    }
+
+
+    
+        /* ===== FORMULARIO ===== */
+      
+        #seccion-contacto{
+            
+            min-height: 600px;
+            position: relative;
+        }
+
+
+
+
+        #copy{
+            width: 50%;
+            text-align: center;
+        }
+  
+}
+
+
+
+
+/* =============== Media querias pantalla EXTRA-SM */
+
+@media (max-width: 576px) {
+
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important; 
+    }
+    
+
+
+    .noticias-container.noticia{
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .noticias-container h3{
+        font-size: small;
+    }
+
+
+   
+}
